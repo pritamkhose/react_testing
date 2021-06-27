@@ -71,6 +71,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
+### To get Jest with HTML report `npm run test:CI` within test-report.html
+
+Install dependencies : `npm i jest-html-reporter --save-dev` and [Read more here](https://medium.com/@biswa8998/jest-with-html-report-a884b08d6635)
+
 ## Imp Links
 
 - [reactjs testing doc](https://reactjs.org/docs/testing-recipes.html)
