@@ -1,6 +1,6 @@
 # React Testing
 
-## Getting Started with Create React App
+### Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -71,9 +71,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-### To get Jest with HTML report `npm run test:CI` within test-report.html
+## To get Jest with HTML report `npm run test:CI` within test-report.html
 
 Install dependencies : `npm i jest-html-reporter --save-dev` and [Read more here](https://medium.com/@biswa8998/jest-with-html-report-a884b08d6635)
+
+## To get test code coverage with HTML report `npm run test -- --coverage`
+
+it will create html report file at `.\coverage\lcov-report\index.html`
 
 ## Imp Links
 
@@ -84,3 +88,7 @@ Install dependencies : `npm i jest-html-reporter --save-dev` and [Read more here
 - [react form example](https://soshace.com/how-to-write-effective-tests-for-react-apps-with-react-testing-library/)
 
 - [react router](https://reactrouter.com/web/guides/quick-start)
+
+- [redux doc](https://react-redux.js.org/introduction/getting-started)
+
+- [test custom react hooks](https://kentcdodds.com/blog/how-to-test-custom-react-hooks)

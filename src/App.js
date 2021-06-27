@@ -7,6 +7,7 @@ import "./App.css";
 import Home from "./Home";
 import SimpleForm from "./form/SimpleForm";
 import SimpleAPIForm from "./form/SimpleAPIForm";
+import ReduxCounterHome from "./redux/ReduxCounterHome";
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
           </Route>
           <Route path="/simple_api_form">
             <SimpleAPIForm />
+          </Route>
+          <Route path="/redux_counter">
+            <ReduxCounterHome />
           </Route>
         </Switch>
       </div>

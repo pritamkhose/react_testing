@@ -27,6 +27,8 @@ export default function Home() {
         </p>
         <Link to="/simple_form">Simple Form</Link>
         <Link to="/simple_api_form">Simple API Form</Link>
+        <Link to="/redux_counter">Redux Counter</Link>
+        
         <a
           className="App-link"
           href="https://reactjs.org"
